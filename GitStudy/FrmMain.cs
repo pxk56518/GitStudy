@@ -51,7 +51,7 @@ namespace GitStudy
                 control = GetControlOfName(controlName, this.Controls);
                 if ((GreenIndex % 5) == i && control != null)
                 {
-                    control.BackColor = Color.Yellow;
+                    control.BackColor = Color.Red;
                 }
                 else 
                 {
@@ -64,6 +64,11 @@ namespace GitStudy
         private void BtnTest2_Click(object sender, EventArgs e)
         {
             timer1.Enabled = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label6.Text = "当前序号:" + GreenIndex;
         }
     }
 }
