@@ -68,7 +68,7 @@ namespace GitStudy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label6.Text = "下个序号将会是:" + (GreenIndex+1).ToString();
+            label6.Text = "下个序号为:" + (GreenIndex+1).ToString();
         }
     }
 }
