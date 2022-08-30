@@ -51,7 +51,7 @@ namespace GitStudy
                 control = GetControlOfName(controlName, this.Controls);
                 if ((GreenIndex % 5) == i && control != null)
                 {
-                    control.BackColor = Color.Green;
+                    control.BackColor = Color.Red;
                 }
                 else 
                 {
